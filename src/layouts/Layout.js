@@ -8,6 +8,7 @@ const useStyles = makeStyles({
     marginTop: "20px",
     marginLeft: "20px",
     marginRight: "20px",
+    background: "#333333",
     // padding: "5px 20px 20px",
   },
 });
@@ -19,8 +20,11 @@ export default function Layout({ children }) {
     <div>
       {/* <Navbar></Navbar> */}
       <div>
-        <Link to="/" className={classes.link}>
-          <p>Link to home</p>
+        <Link to="/cv/Resume/" className={classes.link}>
+          <p>Link to Resume</p>
+        </Link>
+        <Link to="/cv/" className={classes.link}>
+          <p>Link to Home</p>
         </Link>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolores

@@ -1,7 +1,8 @@
 import "./App.css";
 import Layout from "./layouts/Layout";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Homepage from "./pages/Homepage";
+import Homepage from "./homepage/Homepage";
+import Resume from "./resume/Resume";
 // import { createTheme, ThemeProvider } from "@material-ui/core";
 
 function App() {
@@ -9,11 +10,11 @@ function App() {
     <Router>
       <Layout>
         <Switch>
-          <Route path="/">
+          <Route exact path="/cv/">
             <Homepage />
           </Route>
-          <Route exact path="/Resume">
-            <Homepage />
+          <Route exact path="/cv/Resume">
+            <Resume />
           </Route>
         </Switch>
       </Layout>
