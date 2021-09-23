@@ -9,10 +9,10 @@ function App() {
     <Router>
       <Layout>
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <Homepage />
           </Route>
-          <Route exact path="https://bkrowchuk.github.io/cv/">
+          <Route exact path="/Resume">
             <Homepage />
           </Route>
         </Switch>

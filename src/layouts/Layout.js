@@ -17,6 +17,9 @@ export default function Layout({ children }) {
     <div>
       {/* <Navbar></Navbar> */}
       <div>
+        <Link to="/" className={classes.link}>
+          <p>Link to home</p>
+        </Link>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolores
           nulla autem nisi iure animi laudantium quibusdam, at voluptas,
