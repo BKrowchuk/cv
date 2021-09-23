@@ -16,6 +16,14 @@ export default function Layout({ children }) {
   return (
     <div>
       {/* <Navbar></Navbar> */}
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolores
+          nulla autem nisi iure animi laudantium quibusdam, at voluptas,
+          voluptatem perspiciatis error! Rem eos molestias deleniti atque
+          quisquam quia nihil.
+        </p>
+      </div>
       <div className={classes.page}>{children}</div>
     </div>
   );
