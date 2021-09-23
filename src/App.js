@@ -1,10 +1,23 @@
 import "./App.css";
+import Layout from "./layouts/layout";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Homepage from "./pages/Home";
+import { createTheme, ThemeProvider } from "@material-ui/core";
 
 function App() {
   return (
-    <div className="App">
-      <p>This is my website</p>
-    </div>
+    <Router>
+      <Layout>
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+          <Route exact path="/NewChart">
+            <Homepage />
+          </Route>
+        </Switch>
+      </Layout>
+    </Router>
   );
 }
 
