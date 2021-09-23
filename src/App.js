@@ -1,8 +1,8 @@
 import "./App.css";
-import Layout from "./layouts/layout";
+import Layout from "./layouts/Layout";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import { createTheme, ThemeProvider } from "@material-ui/core";
+// import { createTheme, ThemeProvider } from "@material-ui/core";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           <Route exact path="/">
             <Homepage />
           </Route>
-          <Route exact path="/NewChart">
+          <Route exact path="https://bkrowchuk.github.io/cv/">
             <Homepage />
           </Route>
         </Switch>
