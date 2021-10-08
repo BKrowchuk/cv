@@ -38,3 +38,29 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.navbar {
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  max-width: 95%;
+  height: 50px;
+  /* 700px */
+  margin: 0 auto;
+  border-bottom: 1px solid darkgray;
+}
+
+/* .navbar h1 {
+  color: orange;
+} */
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 5px;
+  text-decoration: none;
+  padding: 6px;
+  color: aliceblue;
+}

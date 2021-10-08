@@ -1,5 +1,5 @@
 import { makeStyles } from "@mui/styles";
-import { Link } from "react-router-dom";
+import Navbar from "../topbar/NavBar";
 
 // import Navbar from "./Navbar";
 
@@ -18,21 +18,7 @@ export default function Layout({ children }) {
 
   return (
     <div>
-      {/* <Navbar></Navbar> */}
-      <div>
-        <Link to="/cv/Resume/" className="link">
-          <p>Link to Resume</p>
-        </Link>
-        <Link to="/cv/" className="link">
-          <p>Link to Home</p>
-        </Link>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolores
-          nulla autem nisi iure animi laudantium quibusdam, at voluptas,
-          voluptatem perspiciatis error! Rem eos molestias deleniti atque
-          quisquam quia nihil.
-        </p>
-      </div>
+      <Navbar />
       <div className={classes.page}>{children}</div>
     </div>
   );

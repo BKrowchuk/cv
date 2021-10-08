@@ -15,7 +15,7 @@ const ResumeCard = (props) => {
       <Card sx={{ ...style }}>
         <CardHeader title="Resume" />
         <CardContent>
-          <Link to="/cv/Resume/" className="link">
+          <Link to="/cv/Resume" className="link">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
               unde nihil sed maiores ipsam esse aliquam nemo fugit perferendis
