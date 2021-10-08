@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/core";
+import { makeStyles } from "@mui/styles";
 import { Link } from "react-router-dom";
 
 // import Navbar from "./Navbar";
@@ -20,10 +20,10 @@ export default function Layout({ children }) {
     <div>
       {/* <Navbar></Navbar> */}
       <div>
-        <Link to="/cv/Resume/" className={classes.link}>
+        <Link to="/cv/Resume/" className="link">
           <p>Link to Resume</p>
         </Link>
-        <Link to="/cv/" className={classes.link}>
+        <Link to="/cv/" className="link">
           <p>Link to Home</p>
         </Link>
         <p>

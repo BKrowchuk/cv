@@ -1,5 +1,6 @@
-import { Container } from "@material-ui/core";
+import { Container } from "@mui/material";
 import Masonry from "react-masonry-css";
+import ResumeCard from "./cards/ResumeCard";
 
 const Homepage = () => {
   const breakpoints = {
@@ -15,28 +16,13 @@ const Homepage = () => {
         columnClassName="my-masonry-grid_column"
       >
         <div key={1}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
-            amet qui, temporibus porro quae est quod optio dolorem beatae
-            dolores laboriosam adipisci? Excepturi recusandae sunt dignissimos,
-            quo natus aspernatur odio.
-          </p>
+          <ResumeCard />
         </div>
         <div key={2}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
-            amet qui, temporibus porro quae est quod optio dolorem beatae
-            dolores laboriosam adipisci? Excepturi recusandae sunt dignissimos,
-            quo natus aspernatur odio.
-          </p>
+          <ResumeCard />
         </div>
         <div key={3}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
-            amet qui, temporibus porro quae est quod optio dolorem beatae
-            dolores laboriosam adipisci? Excepturi recusandae sunt dignissimos,
-            quo natus aspernatur odio.
-          </p>
+          <ResumeCard />
         </div>
       </Masonry>
     </Container>

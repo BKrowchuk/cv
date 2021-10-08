@@ -29,3 +29,12 @@ code {
   /* change div to reference your elements you put in <Masonry> */
   margin-bottom: 30px;
 }
+
+.link {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
