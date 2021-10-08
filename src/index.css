@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #213d4a;
 }
 
 code {
@@ -45,7 +46,6 @@ p {
   align-items: center;
   max-width: 95%;
   height: 50px;
-  /* 700px */
   margin: 0 auto;
   border-bottom: 1px solid darkgray;
 }
@@ -55,12 +55,21 @@ p {
 } */
 
 .navbar .links {
-  margin-left: auto;
+  margin-left: 0;
+}
+
+.navbar .middle {
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.navbar p {
+  margin-left: 20px;
+  padding: 6px;
 }
 
 .navbar a {
-  margin-left: 5px;
   text-decoration: none;
-  padding: 6px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }

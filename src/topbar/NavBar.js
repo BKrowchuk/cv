@@ -1,16 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
-import { IconButton } from "@mui/material";
+import { IconButton, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-// import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
-import { AddCircleOutline } from "@mui/icons-material";
-// import HomeIcon from "@material-ui/icons/Home";
 import { Home } from "@mui/icons-material";
-import { blueGrey } from "@mui/material/colors";
 
 const useStyles = makeStyles({
   button: {
     "&:hover": {
-      background: blueGrey[500],
+      backgroundColor: "blue",
     },
   },
 });
@@ -25,30 +21,42 @@ const Navbar = () => {
     title = "Home";
   }
 
-  var new_expense;
-  if (title === "Expenses") {
-    new_expense = (
-      <Link to="/NewExpense">
-        <IconButton className={classes.button} size="small">
-          <AddCircleOutline />
-        </IconButton>
-      </Link>
-    );
-  }
-
   var home = (
     <Link to="/cv">
-      <IconButton className={classes.button} disableRipple={true} size="small">
+      <IconButton size="small">
         <Home />
       </IconButton>
     </Link>
   );
 
+  var resume = (
+    <Link to="/cv/Resume">
+      <Typography>Resume</Typography>
+    </Link>
+  );
+
+  var contact = (
+    <Link to="/cv">
+      <Typography>Contact</Typography>
+    </Link>
+  );
+
+  var portfolio = (
+    <Link to="/cv">
+      <Typography>Portfolio</Typography>
+    </Link>
+  );
+
   return (
     <nav className="navbar">
-      <h1>{title}</h1>
+      {/* <h1>{title}</h1> */}
       {/* <h1>Hi</h1> */}
-      {new_expense}
+      {/* {new_expense} */}
+      <div className="middle">
+        {resume}
+        {portfolio}
+        {contact}
+      </div>
       <div className="links">{home}</div>
     </nav>
   );

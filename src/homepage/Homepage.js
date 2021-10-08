@@ -4,12 +4,13 @@ import ResumeCard from "./cards/ResumeCard";
 
 const Homepage = () => {
   const breakpoints = {
-    default: 2,
+    default: 3,
+    1200: 2,
     700: 1,
   };
 
   return (
-    <Container>
+    <Container maxWidth={false}>
       <Masonry
         breakpointCols={breakpoints}
         className="my-masonry-grid"

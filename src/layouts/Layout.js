@@ -1,8 +1,6 @@
 import { makeStyles } from "@mui/styles";
 import Navbar from "../topbar/NavBar";
 
-// import Navbar from "./Navbar";
-
 const useStyles = makeStyles({
   page: {
     marginTop: "20px",
