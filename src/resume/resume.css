@@ -1,0 +1,93 @@
+/* Page */
+.resume {
+  max-width: 1000px;
+  margin: auto auto 100px;
+  padding: 0px 30px 30px;
+  background-color: rgb(37, 37, 51);
+
+  /* color: rgb(58, 102, 192); */
+}
+
+/* Title */
+.title {
+  text-align: center;
+  display: flex;
+}
+.firstname {
+  margin-left: auto;
+  color: rgba(0, 85, 255, 0.5);
+}
+.lastname {
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+/* Socials */
+.socials {
+  margin: auto;
+  display: flex;
+}
+.socials > p {
+  margin: 0px auto 10px;
+}
+
+/* Section Headings */
+h2 {
+  margin: 0px auto 10px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid beige;
+}
+
+/* Education, Experience, Projects */
+.education .title {
+  display: flex;
+}
+.education .column {
+  float: left;
+}
+.experience .title {
+  display: flex;
+}
+.experience .column {
+  float: left;
+}
+.projects .title {
+  display: flex;
+}
+.projects .column {
+  float: left;
+}
+.date {
+  width: auto;
+}
+.content {
+  border-left: 2px solid black;
+  padding-left: 1%;
+  margin-left: 1%;
+  width: 80%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h3 {
+  margin: 0px 0px 0px 0px;
+}
+h4 {
+  margin: 0px 0px 0px 10px;
+}
+ul {
+  margin: 0px 0px 10px 0px;
+}
+
+/* Skills */
+.skills ul {
+  margin-top: 10px;
+  display: flex;
+  width: 90%;
+}
+.skills li {
+  float: left;
+  margin: auto;
+}
