@@ -7,7 +7,7 @@ import Skills from "./skills/Skills";
 const Resume = () => {
   return (
     <div className="resume">
-      <div className="title">
+      <div className="name">
         <h1 className="firstname">Ben</h1>
         <h1 className="lastname">Krowchuk</h1>
       </div>
