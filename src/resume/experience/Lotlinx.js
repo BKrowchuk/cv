@@ -6,7 +6,7 @@ const Lotlinx = () => {
       </div>
       <div className="column content">
         <div className="title">
-          <h3>LOTLINX</h3>
+          <h3>Lotlinx</h3>
           <h4>| Software Developer Co-op</h4>
         </div>
         <p>Hamiltion, ON</p>

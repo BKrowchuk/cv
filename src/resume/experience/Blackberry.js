@@ -6,7 +6,7 @@ const Blackberry = () => {
       </div>
       <div className="column content">
         <div className="title">
-          <h3>BLACKBERRY</h3>
+          <h3>Blackberry</h3>
           <h4>| Android Software Developer</h4>
         </div>
         <p>Waterloo, ON</p>

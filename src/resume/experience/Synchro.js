@@ -8,7 +8,7 @@ const Synchro = () => {
       </div>
       <div className="column content">
         <div className="title ">
-          <h3>SYNCHRO ENGINEERING LTD</h3>
+          <h3>Synchro Engineering Ltd</h3>
           <h4>| Junior Programmer | Automation and Controls Engineering</h4>
         </div>
         <p>Niagara Falls, ON</p>
